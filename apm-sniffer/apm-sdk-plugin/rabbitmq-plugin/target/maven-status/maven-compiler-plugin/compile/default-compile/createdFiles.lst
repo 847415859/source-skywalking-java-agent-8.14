@@ -1,0 +1,8 @@
+org\apache\skywalking\apm\plugin\rabbitmq\define\ChannelNInstrumentation$3.class
+org\apache\skywalking\apm\plugin\rabbitmq\define\ChannelNInstrumentation$1.class
+org\apache\skywalking\apm\plugin\rabbitmq\define\ChannelNInstrumentation$2.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQProducerInterceptor.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptor.class
+org\apache\skywalking\apm\plugin\rabbitmq\TracerConsumer.class
+org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\rabbitmq\define\ChannelNInstrumentation.class

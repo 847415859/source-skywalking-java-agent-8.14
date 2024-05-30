@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\spring\transaction\context\Constants.class
+org\apache\skywalking\apm\plugin\spring\transaction\define\AbstractPlatformTransactionManagerInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\transaction\define\AbstractPlatformTransactionManagerInstrumentation$2.class
+org\apache\skywalking\apm\plugin\spring\transaction\EndTransactionMethodInterceptor.class
+org\apache\skywalking\apm\plugin\spring\transaction\SpringTXPluginConfig.class
+org\apache\skywalking\apm\plugin\spring\transaction\GetTransactionMethodInterceptor.class
+org\apache\skywalking\apm\plugin\spring\transaction\SpringTXPluginConfig$Plugin$SpringTransaction.class
+org\apache\skywalking\apm\plugin\spring\transaction\SpringTXPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\spring\transaction\define\AbstractPlatformTransactionManagerInstrumentation$1.class

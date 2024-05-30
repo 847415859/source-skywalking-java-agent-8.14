@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\elasticsearch\v7\interceptor\AdapterActionFutureActionGetMethodsInterceptor.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\define\AdapterActionFutureInstrumentation$1.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\define\AdapterActionFutureInstrumentation.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\ElasticsearchPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\ElasticsearchPluginConfig.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\ElasticsearchPluginConfig$Plugin$Elasticsearch.class
+org\apache\skywalking\apm\plugin\elasticsearch\v7\Constants.class

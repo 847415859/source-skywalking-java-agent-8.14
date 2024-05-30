@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\AsyncCallInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\CallInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\EnhanceRequiredInfo.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\EnqueueInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\OnFailureInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\OnResponseInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\okhttp-common\src\main\java\org\apache\skywalking\apm\plugin\okhttp\common\RealCallInterceptor.java">
+</file>
+</checkstyle>

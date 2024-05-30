@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\hikaricp\PoolingGetConnectInterceptor.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariDataSourceInstrumentation$3.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariProxyConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\hikaricp\PoolingSealInterceptor.class
+org\apache\skywalking\apm\plugin\hikaricp\PoolingCloseConnectInterceptor.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariDataSourceInstrumentation$1.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariDataSourceInstrumentation.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariProxyConnectionInstrumentation$1.class
+org\apache\skywalking\apm\plugin\hikaricp\define\HikariDataSourceInstrumentation$2.class

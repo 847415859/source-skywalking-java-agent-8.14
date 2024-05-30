@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\quasar\define\FiberInstrumentation$2.class
+org\apache\skywalking\apm\plugin\quasar\define\FiberInstrumentation$1.class
+org\apache\skywalking\apm\plugin\quasar\FiberInterceptor.class
+org\apache\skywalking\apm\plugin\quasar\define\FiberInstrumentation.class

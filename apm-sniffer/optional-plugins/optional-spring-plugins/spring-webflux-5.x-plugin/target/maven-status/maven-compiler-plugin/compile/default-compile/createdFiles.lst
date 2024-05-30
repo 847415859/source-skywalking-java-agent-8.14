@@ -1,0 +1,6 @@
+org\apache\skywalking\apm\plugin\spring\webflux\v5\define\DispatcherHandlerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\spring\webflux\v5\ServerWebExchangeConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\spring\webflux\v5\define\DispatcherHandlerInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\webflux\v5\DispatcherHandlerHandleMethodInterceptor.class
+org\apache\skywalking\apm\plugin\spring\webflux\v5\define\ServerWebExchangeInstrumentation$1.class
+org\apache\skywalking\apm\plugin\spring\webflux\v5\define\ServerWebExchangeInstrumentation.class

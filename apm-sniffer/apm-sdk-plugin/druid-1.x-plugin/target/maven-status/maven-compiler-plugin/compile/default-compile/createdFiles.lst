@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\druid\v1\PoolingGetConnectInterceptor.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidDataSourceInstrumentation$1.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidDataSourceStatManagerInstrumentation.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidPooledConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\druid\v1\PoolingCloseConnectInterceptor.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidPooledConnectionInstrumentation$1.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidDataSourceInstrumentation$2.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidDataSourceStatManagerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\druid\v1\PoolingAddDruidDataSourceInterceptor.class
+org\apache\skywalking\apm\plugin\druid\v1\define\DruidDataSourceInstrumentation.class

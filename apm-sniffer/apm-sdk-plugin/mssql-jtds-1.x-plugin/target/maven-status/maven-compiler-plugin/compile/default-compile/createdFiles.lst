@@ -1,0 +1,6 @@
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\PreparedStatementInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\DriverInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\ConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\StatementInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\PreparedStatementInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mssql\jtds\v1\define\StatementInstrumentation.class

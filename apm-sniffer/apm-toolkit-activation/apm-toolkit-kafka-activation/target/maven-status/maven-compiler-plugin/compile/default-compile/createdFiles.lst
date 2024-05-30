@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\toolkit\activation\kafka\define\KafkaOnMessageAnnotationInstrumentation.class
+org\apache\skywalking\apm\toolkit\activation\kafka\KafkaOnMessageAnnotationMethodInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\kafka\define\KafkaOnMessageAnnotationInstrumentation$1.class

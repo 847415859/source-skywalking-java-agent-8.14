@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\okhttp\common\EnqueueInterceptor.class
+org\apache\skywalking\apm\plugin\okhttp\common\CallInterceptor.class
+org\apache\skywalking\apm\plugin\okhttp\common\AsyncCallInterceptor.class
+org\apache\skywalking\apm\plugin\okhttp\common\EnhanceRequiredInfo.class
+org\apache\skywalking\apm\plugin\okhttp\common\OnFailureInterceptor.class
+org\apache\skywalking\apm\plugin\okhttp\common\RealCallInterceptor.class
+org\apache\skywalking\apm\plugin\okhttp\common\OnResponseInterceptor.class

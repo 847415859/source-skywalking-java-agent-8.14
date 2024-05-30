@@ -1,0 +1,7 @@
+#Thu May 30 11:18:53 CST 2024
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-sniffer/apm-sdk-plugin/jetty-plugin/jetty-client-9.x-plugin/target/checkstyle-header.txt=A0116A1C782CF424D8C4A7D2B281B784D1435163
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\jetty-plugin\\jetty-client-9.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\jetty\\v9\\client\\SyncHttpRequestSendInterceptor.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\jetty-plugin\\jetty-client-9.x-plugin\\src\\test\\java\\org\\apache\\skywalking\\apm\\plugin\\jetty\\v9\\client\\SyncHttpRequestSendInterceptorTest.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\jetty-plugin\\jetty-client-9.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\jetty\\v9\\client\\define\\HttpRequestInstrumentation.java=1673494499000
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-checkstyle/importControl.xml=ABFB67E42F7636913AA02614BA28721483B81EFC
+configuration*?=A6AB71986362E747B30B0ABE807332061FE76BB9

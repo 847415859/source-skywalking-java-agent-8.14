@@ -1,0 +1,14 @@
+org\apache\skywalking\apm\plugin\xxljob\define\SimpleJobHandlerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\xxljob\ScriptJobHandlerMethodInterceptor.class
+org\apache\skywalking\apm\plugin\xxljob\define\SimpleJobHandlerInstrumentation.class
+org\apache\skywalking\apm\plugin\xxljob\MethodJobHandlerConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\xxljob\SimpleJobHandlerMethodInterceptor.class
+org\apache\skywalking\apm\plugin\xxljob\Constants.class
+org\apache\skywalking\apm\plugin\xxljob\define\MethodJobHandlerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\xxljob\define\ScriptJobHandlerInstrumentation$2.class
+org\apache\skywalking\apm\plugin\xxljob\define\ScriptJobHandlerInstrumentation.class
+org\apache\skywalking\apm\plugin\xxljob\define\MethodJobHandlerInstrumentation.class
+org\apache\skywalking\apm\plugin\xxljob\MethodJobHandlerMethodInterceptor.class
+org\apache\skywalking\apm\plugin\xxljob\define\MethodJobHandlerInstrumentation$2.class
+org\apache\skywalking\apm\plugin\xxljob\define\ScriptJobHandlerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\xxljob\ScriptJobHandlerConstructorInterceptor.class

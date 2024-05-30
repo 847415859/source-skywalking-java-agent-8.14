@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\define\ConnectionInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\ClickHouseStatementTracingWrapper.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\TracedClickHouseStatement.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\define\ConnectionInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\InitConnectionMethodInterceptor.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\ClickHouseStatementTracingWrapper$SupplierWithException.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\define\ConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\define\ConnectionInstrumentation$3.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\ClickHouseStatementMethodInterceptor.class
+org\apache\skywalking\apm\plugin\jdbc\clickhouse\define\ConnectionInstrumentation$4.class

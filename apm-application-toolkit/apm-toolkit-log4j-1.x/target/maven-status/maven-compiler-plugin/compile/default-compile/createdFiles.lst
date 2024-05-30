@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\toolkit\log\log4j\v1\x\log\GRPCLogClientAppender.class
+org\apache\skywalking\apm\toolkit\log\log4j\v1\x\TraceIdPatternConverter.class
+org\apache\skywalking\apm\toolkit\log\log4j\v1\x\TraceIdPatternParser.class
+org\apache\skywalking\apm\toolkit\log\log4j\v1\x\SkyWalkingContextPatternConverter.class
+org\apache\skywalking\apm\toolkit\log\log4j\v1\x\TraceIdPatternLayout.class

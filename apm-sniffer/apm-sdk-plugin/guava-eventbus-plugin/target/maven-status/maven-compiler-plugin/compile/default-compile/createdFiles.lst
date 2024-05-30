@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\guava\eventbus\SubscriberInfo.class
+org\apache\skywalking\apm\plugin\guava\eventbus\EventBusSubscriberInterceptor.class
+org\apache\skywalking\apm\plugin\guava\eventbus\define\EventBusDispatcherInstrumentation.class
+org\apache\skywalking\apm\plugin\guava\eventbus\define\EventBusSubscriberInstrumentation.class
+org\apache\skywalking\apm\plugin\guava\eventbus\define\EventBusDispatcherInstrumentation$1.class
+org\apache\skywalking\apm\plugin\guava\eventbus\define\EventBusSubscriberInstrumentation$1.class
+org\apache\skywalking\apm\plugin\guava\eventbus\EventBusDispatchInterceptor.class
+org\apache\skywalking\apm\plugin\guava\eventbus\define\EventBusSubscriberInstrumentation$2.class
+org\apache\skywalking\apm\plugin\guava\eventbus\EventBusSubscriberConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\guava\eventbus\EventWrapper.class

@@ -1,0 +1,13 @@
+#Thu May 30 11:17:21 CST 2024
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-commons/apm-util/target/checkstyle-header.txt=A0116A1C782CF424D8C4A7D2B281B784D1435163
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\PropertyPlaceholderHelper.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\test\\java\\org\\apache\\skywalking\\apm\\util\\RunnableWithExceptionProtectionTest.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\RunnableWithExceptionProtection.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\PlaceholderConfigurerSupport.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\ConfigInitializer.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\test\\java\\org\\apache\\skywalking\\apm\\util\\StringUtilTest.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\StringUtil.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\test\\java\\org\\apache\\skywalking\\apm\\util\\ConfigInitializerTest.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-commons\\apm-util\\src\\main\\java\\org\\apache\\skywalking\\apm\\util\\Length.java=1673494499000
+configuration*?=B8D7CACAFF120C314368CE1CBA8EC3CC2FA7FF20
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-checkstyle/importControl.xml=ABFB67E42F7636913AA02614BA28721483B81EFC

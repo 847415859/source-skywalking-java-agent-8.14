@@ -1,0 +1,13 @@
+org\apache\skywalking\apm\agent\core\kafka\KafkaConnectionStatus.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaReporterPluginConfig$Plugin$Kafka.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaReporterPluginConfig$Plugin.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaLogReporterServiceClient.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaConnectionStatusListener.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaJVMMetricsSender.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaTraceSegmentServiceClient.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaServiceManagementServiceClient.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaReporterPluginConfig.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaContextManagerExtendService.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaProfileSnapshotSender.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaProducerManager.class
+org\apache\skywalking\apm\agent\core\kafka\KafkaMeterSender.class

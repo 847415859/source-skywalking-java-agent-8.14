@@ -1,0 +1,16 @@
+org\apache\skywalking\apm\plugin\lettuce\v5\define\DefaultEndpointInstrumentation.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisChannelWriterInstrumentation$1.class
+org\apache\skywalking\apm\plugin\lettuce\v5\RedisCommandCompleteMethodInterceptor.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\DefaultEndpointInstrumentation$1.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisCommandInstrumentation$3.class
+org\apache\skywalking\apm\plugin\lettuce\v5\RedisCommandCompleteExceptionallyMethodInterceptor.class
+org\apache\skywalking\apm\plugin\lettuce\v5\LettucePluginConfig.class
+org\apache\skywalking\apm\plugin\lettuce\v5\DefaultEndpointChannelActiveInterceptor.class
+org\apache\skywalking\apm\plugin\lettuce\v5\RedisCommandCancelMethodInterceptor.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisCommandInstrumentation.class
+org\apache\skywalking\apm\plugin\lettuce\v5\RedisChannelWriterInterceptor.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisCommandInstrumentation$2.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisChannelWriterInstrumentation.class
+org\apache\skywalking\apm\plugin\lettuce\v5\define\RedisCommandInstrumentation$1.class
+org\apache\skywalking\apm\plugin\lettuce\v5\LettucePluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\lettuce\v5\LettucePluginConfig$Plugin$Lettuce.class

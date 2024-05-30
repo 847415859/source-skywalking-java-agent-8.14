@@ -1,0 +1,16 @@
+org\apache\skywalking\apm\plugin\avro\define\SpecificRequestorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\avro\define\SpecificRequestorInstrumentation$2.class
+org\apache\skywalking\apm\plugin\avro\AvroInstance.class
+org\apache\skywalking\apm\plugin\avro\define\GenericRequestorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\avro\define\SpecificRequestorInstrumentation.class
+org\apache\skywalking\apm\plugin\avro\SWServerRPCPlugin.class
+org\apache\skywalking\apm\plugin\avro\AbstractRequestInterceptor.class
+org\apache\skywalking\apm\plugin\avro\define\GenericRequestorInstrumentation.class
+org\apache\skywalking\apm\plugin\avro\define\ResponderInstrumentation$2.class
+org\apache\skywalking\apm\plugin\avro\ResponderInterceptor.class
+org\apache\skywalking\apm\plugin\avro\define\GenericRequestorInstrumentation$2.class
+org\apache\skywalking\apm\plugin\avro\GenericRequestorInterceptor.class
+org\apache\skywalking\apm\plugin\avro\SWClientRPCPlugin.class
+org\apache\skywalking\apm\plugin\avro\define\ResponderInstrumentation$1.class
+org\apache\skywalking\apm\plugin\avro\SpecificRequestorInterceptor.class
+org\apache\skywalking\apm\plugin\avro\define\ResponderInstrumentation.class

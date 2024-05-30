@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\baidu\brpc3\ServerInterceptor.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ServerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ServerInstrumentation.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ClientInterceptor.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ClientInstrumentation.class
+org\apache\skywalking\apm\plugin\baidu\brpc3\ClientInstrumentation$2.class

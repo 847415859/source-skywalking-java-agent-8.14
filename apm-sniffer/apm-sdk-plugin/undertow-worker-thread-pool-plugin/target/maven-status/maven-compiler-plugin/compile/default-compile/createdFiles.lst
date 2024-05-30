@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\undertow\worker\thread\pool\UndertowWorkerThreadPoolConstructorIntercept.class
+org\apache\skywalking\apm\plugin\undertow\worker\thread\pool\define\UndertowWorkerThreadPoolInstrumentation.class
+org\apache\skywalking\apm\plugin\undertow\worker\thread\pool\UndertowWorkerThreadPoolConstructorIntercept$1.class
+org\apache\skywalking\apm\plugin\undertow\worker\thread\pool\define\UndertowWorkerThreadPoolInstrumentation$1.class

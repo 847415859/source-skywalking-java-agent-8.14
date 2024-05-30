@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\DriverInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\ConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\PreparedStatementInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\PreparedStatementSetterInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\StatementInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\PreparedStatementInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\PreparedStatementIgnoredSetterInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\PreparedStatementNullSetterInstrumentation.class
+org\apache\skywalking\apm\plugin\mssql\jdbc\define\StatementInstrumentation.class

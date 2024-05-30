@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCacheOperationConvertor.class
+org\apache\skywalking\apm\plugin\guava\cache\define\GuavaCachePluginInstrumentation$1.class
+org\apache\skywalking\apm\plugin\guava\cache\define\GuavaCachePluginInstrumentation$2.class
+org\apache\skywalking\apm\plugin\guava\cache\define\GuavaCachePluginInstrumentation.class
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCachePluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCachePluginConfig.class
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCacheInterceptor.class
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCacheAllInterceptor.class
+org\apache\skywalking\apm\plugin\guava\cache\GuavaCachePluginConfig$Plugin$GuavaCache.class

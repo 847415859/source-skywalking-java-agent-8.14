@@ -1,0 +1,12 @@
+org\apache\skywalking\apm\plugin\okhttp\v4\define\AbstractOkhttpInstrumentation.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\RealCallInstrumentation$4.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\CallbackInstrumentation.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\AsyncCallInstrumentation$2.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\RealCallInstrumentation$3.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\RealCallInstrumentation$2.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\RealCallInstrumentation.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\AsyncCallInstrumentation$1.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\RealCallInstrumentation$1.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\CallbackInstrumentation$1.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\CallbackInstrumentation$2.class
+org\apache\skywalking\apm\plugin\okhttp\v4\define\AsyncCallInstrumentation.class

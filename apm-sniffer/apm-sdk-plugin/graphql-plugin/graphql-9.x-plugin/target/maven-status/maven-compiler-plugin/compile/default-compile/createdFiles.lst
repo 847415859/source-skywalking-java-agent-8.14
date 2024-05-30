@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\plugin\graphql\v9\GraphqlInterceptor.class
+org\apache\skywalking\apm\plugin\graphql\v9\define\GraphqlInstrumentation.class
+org\apache\skywalking\apm\plugin\graphql\v9\define\GraphqlInstrumentation$1.class

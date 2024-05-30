@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\plugin\play\v2x\define\Play2xInstrumentation.class
+org\apache\skywalking\apm\plugin\play\v2x\define\Play2xInstrumentation$2.class
+org\apache\skywalking\apm\plugin\play\v2x\HttpFiltersInterceptor.class
+org\apache\skywalking\apm\plugin\play\v2x\TracingFilter.class
+org\apache\skywalking\apm\plugin\play\v2x\define\Play2xInstrumentation$1.class

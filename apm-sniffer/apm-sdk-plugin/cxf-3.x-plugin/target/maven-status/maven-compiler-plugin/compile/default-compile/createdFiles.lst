@@ -1,0 +1,8 @@
+org\apache\skywalking\apm\plugin\cxf\v3\client\define\MessageSenderInterceptorInstrumentation.class
+org\apache\skywalking\apm\plugin\cxf\v3\server\AsyncInvokeMethodInterceptor.class
+org\apache\skywalking\apm\plugin\cxf\v3\server\define\ServiceInvokerInterceptorInstrumentation$2.class
+org\apache\skywalking\apm\plugin\cxf\v3\client\MessageSenderInterceptorInterceptor.class
+org\apache\skywalking\apm\plugin\cxf\v3\server\AsyncInvokeConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\cxf\v3\client\define\MessageSenderInterceptorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\cxf\v3\server\define\ServiceInvokerInterceptorInstrumentation.class
+org\apache\skywalking\apm\plugin\cxf\v3\server\define\ServiceInvokerInterceptorInstrumentation$1.class

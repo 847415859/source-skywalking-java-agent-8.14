@@ -1,0 +1,8 @@
+org\apache\skywalking\apm\plugin\mybatis\MyBatisShellMethodInterceptor.class
+org\apache\skywalking\apm\plugin\mybatis\Constants.class
+org\apache\skywalking\apm\plugin\mybatis\define\MyBatisInstrumentation.class
+org\apache\skywalking\apm\plugin\mybatis\define\MyBatisInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mybatis\define\MyBatisShellMethodInstrumentation$1.class
+org\apache\skywalking\apm\plugin\mybatis\define\MyBatisShellMethodInstrumentation.class
+org\apache\skywalking\apm\plugin\mybatis\MyBatisInterceptor.class
+org\apache\skywalking\apm\plugin\mybatis\MyBatisMethodMatch.class

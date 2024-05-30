@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+apm-toolkit-micrometer-activation
+
+
+From: 'an unknown organization'
+  - context-propagation (https://github.com/micrometer-metrics/context-propagation) io.micrometer:context-propagation:jar:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - micrometer-commons (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-commons:jar:1.10.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - micrometer-observation (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-observation:jar:1.10.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - apm-toolkit-meter (http://maven.apache.org) org.apache.skywalking:apm-toolkit-meter:jar:8.14.0
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - apm-toolkit-micrometer-1.10 (http://maven.apache.org) org.apache.skywalking:apm-toolkit-micrometer-1.10:jar:8.14.0
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - apm-toolkit-micrometer-registry (http://maven.apache.org) org.apache.skywalking:apm-toolkit-micrometer-registry:jar:8.14.0
+    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

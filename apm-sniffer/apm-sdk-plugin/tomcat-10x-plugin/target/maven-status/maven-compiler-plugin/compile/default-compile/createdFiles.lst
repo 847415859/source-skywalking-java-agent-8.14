@@ -1,0 +1,14 @@
+org\apache\skywalking\apm\plugin\tomcat10x\define\TomcatInstrumentation.class
+org\apache\skywalking\apm\plugin\tomcat10x\define\ApplicationDispatcherInstrumentation$2.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatInvokeInterceptor.class
+org\apache\skywalking\apm\plugin\tomcat10x\define\TomcatInstrumentation$2.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatPluginConfig.class
+org\apache\skywalking\apm\plugin\tomcat10x\define\ApplicationDispatcherInstrumentation$1.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatPluginConfig$Plugin$Tomcat.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\tomcat10x\Constants.class
+org\apache\skywalking\apm\plugin\tomcat10x\define\ApplicationDispatcherInstrumentation.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatExceptionInterceptor.class
+org\apache\skywalking\apm\plugin\tomcat10x\ForwardInterceptor.class
+org\apache\skywalking\apm\plugin\tomcat10x\define\TomcatInstrumentation$1.class
+org\apache\skywalking\apm\plugin\tomcat10x\TomcatPluginConfig$Plugin$Http.class

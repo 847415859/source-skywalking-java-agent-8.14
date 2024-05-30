@@ -1,0 +1,11 @@
+org\apache\skywalking\apm\meter\micrometer\SkywalkingDistributionSummary.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingMeterRegistry.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingMeterRegistry$1.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingTimer.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingConfig.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingCustomCounter.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingLongTaskTimer.class
+org\apache\skywalking\apm\meter\micrometer\MeterBuilder.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingCustomCounter$Builder.class
+org\apache\skywalking\apm\meter\micrometer\SkywalkingCounter.class
+org\apache\skywalking\apm\meter\micrometer\MeterBuilder$1.class

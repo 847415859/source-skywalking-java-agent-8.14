@@ -1,0 +1,14 @@
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerReceiverTracingHandlerInstrumentation.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerReceiverTracingHandlerInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerDefaultTracingHandlerInstrumentation$1.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerReceiverTracingHandlerInstrumentation$1.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerSenderTracingHandlerInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerSenderTracingHandlerInstrumentation.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\TaggingHelper.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\SpanHelper.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerDefaultTracingHandlerInstrumentation.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerContextSnapshotThreadLocalAccessorInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerSenderTracingHandlerInstrumentation$1.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerContextManagerThreadLocalAccessorInstrumentation.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerDefaultTracingHandlerInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\micrometer\MicrometerContextManagerThreadLocalAccessorInstrumentation$1.class

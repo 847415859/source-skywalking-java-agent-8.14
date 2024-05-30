@@ -1,0 +1,8 @@
+org\apache\skywalking\apm\plugin\AbstractThreadingPoolInterceptor.class
+org\apache\skywalking\apm\plugin\wrapper\SwCallableWrapper.class
+org\apache\skywalking\apm\plugin\define\ThreadPoolExecutorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\define\ThreadPoolExecutorInstrumentation.class
+org\apache\skywalking\apm\plugin\ThreadPoolExecuteMethodInterceptor.class
+org\apache\skywalking\apm\plugin\ThreadPoolSubmitMethodInterceptor.class
+org\apache\skywalking\apm\plugin\define\ThreadPoolExecutorInstrumentation$2.class
+org\apache\skywalking\apm\plugin\wrapper\SwRunnableWrapper.class

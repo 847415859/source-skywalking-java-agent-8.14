@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\micronaut\http\client\MicronautHttpClientPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\define\MicronautClientInstrumentation$2.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\MicronautHttpClientPluginConfig$Plugin$Http.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\define\MicronautClientInstrumentation.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\MicronautCommons.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\ExchangeImplInterceptor.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\MicronautHttpClientPluginConfig$Plugin$MicronautHttpClient.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\define\MicronautClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\MicronautHttpClientPluginConfig.class
+org\apache\skywalking\apm\plugin\micronaut\http\client\BuildExchangeStreamPublisherInterceptor.class

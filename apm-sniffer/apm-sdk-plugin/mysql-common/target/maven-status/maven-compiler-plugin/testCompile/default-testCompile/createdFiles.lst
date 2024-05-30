@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\jdbc\mysql\CreatePreparedStatementInterceptorTest.class
+org\apache\skywalking\apm\plugin\jdbc\mysql\CreateStatementInterceptorTest.class
+org\apache\skywalking\apm\plugin\jdbc\mysql\CreateCallableStatementInterceptorTest.class
+org\apache\skywalking\apm\plugin\jdbc\mysql\StatementExecuteMethodsInterceptorTest.class

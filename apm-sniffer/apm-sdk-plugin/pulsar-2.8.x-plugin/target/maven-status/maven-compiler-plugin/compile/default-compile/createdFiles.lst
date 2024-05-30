@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\pulsar\v28x\MessagePropertiesInjectorV28.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\Constants.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\PulsarConsumerListenerInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\TopicMessageInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\PulsarConsumerInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\MessageInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\PulsarProducerInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\define\SendCallbackInstrumentation.class
+org\apache\skywalking\apm\plugin\pulsar\v28x\ProducerConstructorInterceptor.class

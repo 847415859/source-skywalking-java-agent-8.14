@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\spring\annotations\services\SpringServicesInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\annotations\bean\SpringBeanInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\annotations\repository\SpringRepositoryInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\annotations\SpringAnnotationConfig$Plugin.class
+org\apache\skywalking\apm\plugin\spring\annotations\component\SpringComponentInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\annotations\AbstractSpringBeanInstrumentation.class
+org\apache\skywalking\apm\plugin\spring\annotations\SpringAnnotationConfig.class
+org\apache\skywalking\apm\plugin\spring\annotations\SpringAnnotationInterceptor.class
+org\apache\skywalking\apm\plugin\spring\annotations\AbstractSpringBeanInstrumentation$1.class
+org\apache\skywalking\apm\plugin\spring\annotations\SpringAnnotationConfig$Plugin$SpringAnnotation.class

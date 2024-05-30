@@ -1,0 +1,12 @@
+org\apache\skywalking\apm\plugin\jdk\threading\ThreadingMethodInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\CallableInstrumentation.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\RunnableInstrumentation.class
+org\apache\skywalking\apm\plugin\jdk\threading\JDKThreadingPluginConfig.class
+org\apache\skywalking\apm\plugin\jdk\threading\ThreadingConfig.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\CallableInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jdk\threading\ThreadingConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\RunnableInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\RunnableInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jdk\threading\define\CallableInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jdk\threading\JDKThreadingPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\jdk\threading\JDKThreadingPluginConfig$Plugin$JdkThreading.class

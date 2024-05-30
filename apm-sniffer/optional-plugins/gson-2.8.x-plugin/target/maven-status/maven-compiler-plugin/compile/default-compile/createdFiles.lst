@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\gson\define\GsonFromJsonInstrumentation.class
+org\apache\skywalking\apm\plugin\gson\GsonToJsonInterceptor.class
+org\apache\skywalking\apm\plugin\gson\define\GsonToJsonInstrumentation$1.class
+org\apache\skywalking\apm\plugin\gson\define\GsonToJsonInstrumentation$2.class
+org\apache\skywalking\apm\plugin\gson\define\GsonFromJsonInstrumentation$1.class
+org\apache\skywalking\apm\plugin\gson\GsonFromJsonInterceptor.class
+org\apache\skywalking\apm\plugin\gson\define\GsonToJsonInstrumentation.class

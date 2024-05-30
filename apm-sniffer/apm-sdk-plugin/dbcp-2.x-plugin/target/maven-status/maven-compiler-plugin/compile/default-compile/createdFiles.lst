@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\dbcp\v2\define\DelegatingConnectionInstrumentation$1.class
+org\apache\skywalking\apm\plugin\dbcp\v2\define\BasicDataSourceInstrumentation$2.class
+org\apache\skywalking\apm\plugin\dbcp\v2\define\DelegatingConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\dbcp\v2\PoolingGetConnectInterceptor.class
+org\apache\skywalking\apm\plugin\dbcp\v2\PoolingJmxRegisterInterceptor.class
+org\apache\skywalking\apm\plugin\dbcp\v2\PoolingCloseConnectInterceptor.class
+org\apache\skywalking\apm\plugin\dbcp\v2\define\BasicDataSourceInstrumentation$3.class
+org\apache\skywalking\apm\plugin\dbcp\v2\define\BasicDataSourceInstrumentation.class
+org\apache\skywalking\apm\plugin\dbcp\v2\PoolingSetUrlInterceptor.class
+org\apache\skywalking\apm\plugin\dbcp\v2\define\BasicDataSourceInstrumentation$1.class

@@ -1,0 +1,13 @@
+org\apache\skywalking\apm\plugin\micronaut\http\server\MicronautHttpServerPluginConfig$Plugin$Http.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\MicronautHttpServerPluginConfig$Plugin$MicronautHttpServer.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\MicronautCommons.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\define\RoutingInBoundHandlerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\MicronautHttpServerPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\define\RoutingInBoundHandlerInstrumentation.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\define\RouteMatchInstrumentation.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\define\RouteMatchInstrumentation$1.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\define\RoutingInBoundHandlerInstrumentation$2.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\HandleStatusErrorInterceptor.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\RouteMatchExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\WriteFinalNettyResponseInterceptor.class
+org\apache\skywalking\apm\plugin\micronaut\http\server\MicronautHttpServerPluginConfig.class

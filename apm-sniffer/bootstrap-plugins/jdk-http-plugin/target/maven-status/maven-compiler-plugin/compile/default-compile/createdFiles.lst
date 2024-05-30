@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpsClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jdk\http\HttpsClientNewInstanceInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpClientInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpsClientInstrumentation.class
+org\apache\skywalking\apm\plugin\jdk\http\HttpClientWriteRequestInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jdk\http\HttpClientParseHttpInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpClientInstrumentation.class
+org\apache\skywalking\apm\plugin\jdk\http\HttpClientNewInstanceInterceptor.class
+org\apache\skywalking\apm\plugin\jdk\http\define\HttpClientInstrumentation$3.class

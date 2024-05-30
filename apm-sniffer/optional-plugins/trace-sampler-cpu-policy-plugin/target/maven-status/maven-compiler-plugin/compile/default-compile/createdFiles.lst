@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\cpu\policy\conf\TraceSamplerCpuPolicyPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\cpu\policy\conf\TraceSamplerCpuPolicyPluginConfig.class
+org\apache\skywalking\apm\plugin\cpu\policy\TraceSamplerCpuPolicyExtendService.class
+org\apache\skywalking\apm\plugin\cpu\policy\conf\TraceSamplerCpuPolicyPluginConfig$Plugin$CpuPolicy.class

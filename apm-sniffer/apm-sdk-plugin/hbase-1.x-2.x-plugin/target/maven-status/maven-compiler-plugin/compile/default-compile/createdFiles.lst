@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\hbase\HTable100Interceptor.class
+org\apache\skywalking\apm\plugin\hbase\define\HTableInstrumentation$2.class
+org\apache\skywalking\apm\plugin\hbase\define\HTableInstrumentation$3.class
+org\apache\skywalking\apm\plugin\hbase\HTable200Interceptor.class
+org\apache\skywalking\apm\plugin\hbase\define\HTableInstrumentation$1.class
+org\apache\skywalking\apm\plugin\hbase\define\HTableInstrumentation$4.class
+org\apache\skywalking\apm\plugin\hbase\define\HTableInstrumentation.class
+org\apache\skywalking\apm\plugin\hbase\HTable220Interceptor.class
+org\apache\skywalking\apm\plugin\hbase\HTableInterceptor.class

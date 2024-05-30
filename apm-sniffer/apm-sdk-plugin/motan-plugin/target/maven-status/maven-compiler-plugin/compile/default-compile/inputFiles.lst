@@ -1,0 +1,4 @@
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\motan-plugin\src\main\java\org\apache\skywalking\apm\plugin\motan\MotanConsumerInterceptor.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\motan-plugin\src\main\java\org\apache\skywalking\apm\plugin\motan\MotanProviderInterceptor.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\motan-plugin\src\main\java\org\apache\skywalking\apm\plugin\motan\define\MotanProviderInstrumentation.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\motan-plugin\src\main\java\org\apache\skywalking\apm\plugin\motan\define\MotanConsumerInstrumentation.java

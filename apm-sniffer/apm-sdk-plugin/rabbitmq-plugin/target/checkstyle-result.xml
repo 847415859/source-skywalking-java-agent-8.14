@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\main\java\org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\main\java\org\apache\skywalking\apm\plugin\rabbitmq\define\ChannelNInstrumentation.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\main\java\org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\main\java\org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQProducerInterceptor.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\main\java\org\apache\skywalking\apm\plugin\rabbitmq\TracerConsumer.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\test\java\org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptorTest.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\test\java\org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptorTest.java">
+</file>
+<file name="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\rabbitmq-plugin\src\test\java\org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQProducerInterceptorTest.java">
+</file>
+</checkstyle>

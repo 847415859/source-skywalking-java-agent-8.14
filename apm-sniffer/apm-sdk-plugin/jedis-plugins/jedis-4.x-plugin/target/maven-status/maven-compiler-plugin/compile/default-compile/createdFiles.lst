@@ -1,0 +1,12 @@
+org\apache\skywalking\apm\plugin\jedis\v4\define\ConnectionInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jedis\v4\define\ConnectionInstrumentation$3.class
+org\apache\skywalking\apm\plugin\jedis\v4\JedisPluginConfig.class
+org\apache\skywalking\apm\plugin\jedis\v4\define\ConnectionInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jedis\v4\define\ConnectionInstrumentation.class
+org\apache\skywalking\apm\plugin\jedis\v4\JedisPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\jedis\v4\define\AbstractWitnessInstrumentation.class
+org\apache\skywalking\apm\plugin\jedis\v4\ConnectionSendCmdInterceptor.class
+org\apache\skywalking\apm\plugin\jedis\v4\AbstractConnectionInterceptor.class
+org\apache\skywalking\apm\plugin\jedis\v4\ConnectionConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\jedis\v4\ConnectionExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\jedis\v4\JedisPluginConfig$Plugin$Jedis.class

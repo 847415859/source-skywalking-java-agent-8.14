@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\toolkit\micrometer\observation\SkywalkingMeterHandler.class
+org\apache\skywalking\apm\toolkit\micrometer\observation\SkywalkingContextSnapshotThreadLocalAccessor.class
+org\apache\skywalking\apm\toolkit\micrometer\observation\SkywalkingSenderTracingHandler.class
+org\apache\skywalking\apm\toolkit\micrometer\observation\SkywalkingReceiverTracingHandler.class
+org\apache\skywalking\apm\toolkit\micrometer\observation\SkywalkingDefaultTracingHandler.class

@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\trace\ignore\conf\IgnoreConfig$Trace.class
+org\apache\skywalking\apm\plugin\trace\ignore\conf\IgnoreConfigInitializer.class
+org\apache\skywalking\apm\plugin\trace\ignore\matcher\TracePathMatcher.class
+org\apache\skywalking\apm\plugin\trace\ignore\TraceIgnorePatternWatcher.class
+org\apache\skywalking\apm\plugin\trace\ignore\matcher\FastPathMatcher.class
+org\apache\skywalking\apm\plugin\trace\ignore\TraceIgnoreExtendService.class
+org\apache\skywalking\apm\plugin\trace\ignore\conf\IgnoreConfig.class

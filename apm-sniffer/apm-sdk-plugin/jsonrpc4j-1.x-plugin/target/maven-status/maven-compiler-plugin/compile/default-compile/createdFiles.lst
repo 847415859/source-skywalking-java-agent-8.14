@@ -1,0 +1,14 @@
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcHttpClientInstrumentation$2.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonServiceExporterInstrumentation.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonRpcConstants.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonRpcBasicServerInvokeInterceptor.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcHttpClientInstrumentation$3.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcHttpClientInstrumentation.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonRpcHttpClientPrepareConnectionInterceptor.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcBasicServerInstrumentation.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcBasicServerInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonServiceExporterInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonServiceExporterInterceptor.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonRpcHttpClientInterceptor.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\JsonRpcPeerInfo.class
+org\apache\skywalking\apm\plugin\jsonrpc4j\define\JsonRpcHttpClientInstrumentation$1.class

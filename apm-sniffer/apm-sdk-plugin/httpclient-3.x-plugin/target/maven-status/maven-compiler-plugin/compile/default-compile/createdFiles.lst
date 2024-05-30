@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\plugin\httpclient\v3\define\HttpClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\httpclient\v3\HttpClientExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\httpclient\v3\define\HttpClientInstrumentation.class

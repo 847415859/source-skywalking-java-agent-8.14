@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\asynchttpclient\v2\AsyncHandlerWrapper.class
+org\apache\skywalking\apm\plugin\asynchttpclient\v2\ExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\asynchttpclient\v2\define\DefaultAsyncHttpClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\asynchttpclient\v2\define\DefaultAsyncHttpClientInstrumentation.class

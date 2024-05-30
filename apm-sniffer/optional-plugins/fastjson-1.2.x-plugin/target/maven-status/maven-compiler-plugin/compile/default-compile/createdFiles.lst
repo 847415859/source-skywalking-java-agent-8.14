@@ -1,0 +1,10 @@
+org\apache\skywalking\apm\plugin\fastjson\ToJsonBytesInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\ToJavaObjectInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\ToJsonStringInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\ParseObjectInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\ToJsonInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\define\FastjsonInstrumentation$1.class
+org\apache\skywalking\apm\plugin\fastjson\define\FastjsonInstrumentation.class
+org\apache\skywalking\apm\plugin\fastjson\ParseArrayInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\ParseInterceptor.class
+org\apache\skywalking\apm\plugin\fastjson\WriteJsonStringInterceptor.class

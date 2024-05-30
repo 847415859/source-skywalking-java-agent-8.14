@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\plugin\hutool\http\v5\define\HutoolHttpInstrumentation$1.class
+org\apache\skywalking\apm\plugin\hutool\http\v5\define\HutoolHttpInstrumentation.class
+org\apache\skywalking\apm\plugin\hutool\http\v5\HutoolHttpExecuteInterceptor.class

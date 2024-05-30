@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\toolkit\activation\webflux\WebFluxSkyWalkingOperatorsInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\webflux\WebFluxSkyWalkingOperatorsActivation$1.class
+org\apache\skywalking\apm\toolkit\activation\webflux\WebFluxSkyWalkingOperatorsActivation.class

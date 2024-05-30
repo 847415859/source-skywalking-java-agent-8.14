@@ -1,0 +1,7 @@
+org\apache\skywalking\apm\plugin\vertx4\VertxBuilderConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\vertx4\ClusteredMessageConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\vertx4\define\VertxBuilderConstructorInstrumentation.class
+org\apache\skywalking\apm\plugin\vertx4\define\ClusteredMessageConstructorInstrumentation.class
+org\apache\skywalking\apm\plugin\vertx4\define\VertxBuilderConstructorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\vertx4\define\ClusteredMessageConstructorInstrumentation$1.class
+org\apache\skywalking\apm\plugin\vertx4\SWVertxTracer.class

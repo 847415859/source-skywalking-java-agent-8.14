@@ -1,0 +1,6 @@
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\SolrJPluginConfig.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\SolrConnectorInterceptor.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\commons\SolrjTags.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\commons\SolrjInstance.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\SolrClientInterceptor.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\solrj-7.x-plugin\src\main\java\org\apache\skywalking\apm\plugin\solrj\define\SolrClientInstrumentation.java

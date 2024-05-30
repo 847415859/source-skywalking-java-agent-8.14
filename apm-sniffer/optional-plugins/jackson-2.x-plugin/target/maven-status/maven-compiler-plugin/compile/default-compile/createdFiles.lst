@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\jackson\WriteValueAsBytesInterceptor.class
+org\apache\skywalking\apm\plugin\jackson\WriteValueAsStringInterceptor.class
+org\apache\skywalking\apm\plugin\jackson\BasicMethodsInterceptor.class
+org\apache\skywalking\apm\plugin\jackson\define\AbstractInstrumentation$1.class
+org\apache\skywalking\apm\plugin\jackson\define\ObjectMapperInstrumentation.class
+org\apache\skywalking\apm\plugin\jackson\define\ObjectWriterInstrumentation.class
+org\apache\skywalking\apm\plugin\jackson\ReadValueInterceptor.class
+org\apache\skywalking\apm\plugin\jackson\define\ObjectReaderInstrumentation.class
+org\apache\skywalking\apm\plugin\jackson\define\AbstractInstrumentation.class

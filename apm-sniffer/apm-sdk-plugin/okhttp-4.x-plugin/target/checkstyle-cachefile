@@ -1,0 +1,8 @@
+#Thu May 30 11:18:04 CST 2024
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\okhttp-4.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\okhttp\\v4\\define\\RealCallInstrumentation.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\okhttp-4.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\okhttp\\v4\\define\\CallbackInstrumentation.java=1673494499000
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\okhttp-4.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\okhttp\\v4\\define\\AsyncCallInstrumentation.java=1673494499000
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-sniffer/apm-sdk-plugin/okhttp-4.x-plugin/target/checkstyle-header.txt=A0116A1C782CF424D8C4A7D2B281B784D1435163
+D\:\\Studynotes\\self-study\\ssjava\\24.APM\\Skywalking\\SourceCode\\apache-skywalking-java-agent-8.14.0\\apm-sniffer\\apm-sdk-plugin\\okhttp-4.x-plugin\\src\\main\\java\\org\\apache\\skywalking\\apm\\plugin\\okhttp\\v4\\define\\AbstractOkhttpInstrumentation.java=1673494499000
+module-resource*?\:file\:/D\:/Studynotes/self-study/ssjava/24.APM/Skywalking/SourceCode/apache-skywalking-java-agent-8.14.0/apm-checkstyle/importControl.xml=ABFB67E42F7636913AA02614BA28721483B81EFC
+configuration*?=4ED8E1D6DEC90883B48A26DE95EC57BE03D962F8

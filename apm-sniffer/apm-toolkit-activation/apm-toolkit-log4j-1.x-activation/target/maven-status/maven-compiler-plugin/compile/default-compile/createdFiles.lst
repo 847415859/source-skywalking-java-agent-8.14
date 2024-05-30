@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\TraceIdPatternConverterActivation.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\log\GRPCLogAppenderActivation$1.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\log\GRPCLogAppenderInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\SkyWalkingContextPatternConverterActivation.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\SkyWalkingContextPatternConverterActivation$1.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\PrintTraceIdInterceptor.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\TraceIdPatternConverterActivation$1.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\log\GRPCLogAppenderActivation.class
+org\apache\skywalking\apm\toolkit\activation\log\log4j\v1\x\PrintSkyWalkingContextInterceptor.class

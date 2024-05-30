@@ -1,0 +1,2 @@
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\jetty-plugin\jetty-client-9.0-plugin\src\main\java\org\apache\skywalking\apm\plugin\jetty\v90\client\define\HttpRequestInstrumentation.java
+D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\jetty-plugin\jetty-client-9.0-plugin\src\main\java\org\apache\skywalking\apm\plugin\jetty\v90\client\SyncHttpRequestSendInterceptor.java

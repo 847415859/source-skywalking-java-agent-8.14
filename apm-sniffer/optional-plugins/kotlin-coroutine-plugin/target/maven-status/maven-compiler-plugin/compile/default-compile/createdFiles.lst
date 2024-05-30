@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\kotlin\coroutine\define\DispatcherInstrumentation.class
+org\apache\skywalking\apm\plugin\kotlin\coroutine\define\DispatcherInstrumentation$1.class
+org\apache\skywalking\apm\plugin\kotlin\coroutine\DispatcherInterceptor.class
+org\apache\skywalking\apm\plugin\kotlin\coroutine\TracingRunnable.class

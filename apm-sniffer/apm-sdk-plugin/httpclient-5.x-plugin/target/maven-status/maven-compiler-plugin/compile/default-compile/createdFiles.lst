@@ -1,0 +1,12 @@
+org\apache\skywalking\apm\plugin\httpclient\v5\HttpAsyncClientDoExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\httpclient\v5\Constants.class
+org\apache\skywalking\apm\plugin\httpclient\v5\wrapper\FutureCallbackWrapper.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\HttpClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\httpclient\v5\IOSessionImplPollInterceptor.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\HttpAsyncClientInstrumentation$1.class
+org\apache\skywalking\apm\plugin\httpclient\v5\HttpClientDoExecuteInterceptor.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\HttpAsyncClientInstrumentation.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\IOSessionImplInstrumentation.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\IOSessionImplInstrumentation$1.class
+org\apache\skywalking\apm\plugin\httpclient\v5\wrapper\AsyncResponseConsumerWrapper.class
+org\apache\skywalking\apm\plugin\httpclient\v5\define\HttpClientInstrumentation.class

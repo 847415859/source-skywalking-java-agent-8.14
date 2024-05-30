@@ -1,0 +1,9 @@
+org\apache\skywalking\apm\plugin\influxdb\InfluxDBPluginConfig$Plugin$InfluxDB.class
+org\apache\skywalking\apm\plugin\influxdb\define\InfluxDBInstrumentation$2.class
+org\apache\skywalking\apm\plugin\influxdb\interceptor\InfluxDBMethodInterceptor.class
+org\apache\skywalking\apm\plugin\influxdb\define\InfluxDBInstrumentation$1.class
+org\apache\skywalking\apm\plugin\influxdb\InfluxDBPluginConfig.class
+org\apache\skywalking\apm\plugin\influxdb\InfluxDBPluginConfig$Plugin.class
+org\apache\skywalking\apm\plugin\influxdb\define\Constants.class
+org\apache\skywalking\apm\plugin\influxdb\interceptor\InfluxDBConstructorInterceptor.class
+org\apache\skywalking\apm\plugin\influxdb\define\InfluxDBInstrumentation.class
