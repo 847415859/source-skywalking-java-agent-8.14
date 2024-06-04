@@ -24,6 +24,7 @@ import java.util.List;
 
 /**
  * the spi of the InstrumentationLoader.
+ * InstrumentationLoader的spi
  */
 
 public interface InstrumentationLoader {

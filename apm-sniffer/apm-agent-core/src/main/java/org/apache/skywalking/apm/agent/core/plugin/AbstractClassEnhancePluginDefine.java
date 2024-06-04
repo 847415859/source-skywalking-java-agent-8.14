@@ -50,11 +50,11 @@ public abstract class AbstractClassEnhancePluginDefine {
 
     /**
      * Main entrance of enhancing the class.
-     *
-     * @param typeDescription target class description.
-     * @param builder         byte-buddy's builder to manipulate target class's bytecode.
-     * @param classLoader     load the given transformClass
-     * @return the new builder, or <code>null</code> if not be enhanced.
+     * 增加类的入口
+     * @param typeDescription target class description. 目标类的描述（增强类）
+     * @param builder         byte-buddy's builder to manipulate target class's bytecode.   字节码的构建器
+     * @param classLoader     load the given transformClass 加载目标类的类加载器
+     * @return the new builder, or <code>null</code> if not be enhanced.    返回新的构建器，如果未增强则返回null
      * @throws PluginException when set builder failure.
      */
     public DynamicType.Builder<?> define(TypeDescription typeDescription, DynamicType.Builder<?> builder,
@@ -70,16 +70,19 @@ public abstract class AbstractClassEnhancePluginDefine {
         WitnessFinder finder = WitnessFinder.INSTANCE;
         /**
          * find witness classes for enhance class
+         * 查询需要增强的类
          */
         String[] witnessClasses = witnessClasses();
         if (witnessClasses != null) {
             for (String witnessClass : witnessClasses) {
+                // 查询是否已经存在
                 if (!finder.exist(witnessClass, classLoader)) {
                     LOGGER.warn("enhance class {} by plugin {} is not activated. Witness class {} does not exist.", transformClassName, interceptorDefineClassName, witnessClass);
                     return null;
                 }
             }
         }
+        // 获取增强的方法
         List<WitnessMethod> witnessMethods = witnessMethods();
         if (!CollectionUtil.isEmpty(witnessMethods)) {
             for (WitnessMethod witnessMethod : witnessMethods) {
@@ -92,9 +95,11 @@ public abstract class AbstractClassEnhancePluginDefine {
 
         /**
          * find origin class source code for interceptor
+         * 核心 查找拦截器的源类源代码
          */
         DynamicType.Builder<?> newClassBuilder = this.enhance(typeDescription, builder, classLoader, context);
 
+        // 标识已经增强完毕
         context.initializationStageCompleted();
         LOGGER.debug("enhance class {} by {} completely.", transformClassName, interceptorDefineClassName);
 
@@ -111,8 +116,9 @@ public abstract class AbstractClassEnhancePluginDefine {
      */
     protected DynamicType.Builder<?> enhance(TypeDescription typeDescription, DynamicType.Builder<?> newClassBuilder,
                                              ClassLoader classLoader, EnhanceContext context) throws PluginException {
+        // 增强静态方法
         newClassBuilder = this.enhanceClass(typeDescription, newClassBuilder, classLoader);
-
+        // 增加实例方法和构造方法
         newClassBuilder = this.enhanceInstance(typeDescription, newClassBuilder, classLoader, context);
 
         return newClassBuilder;

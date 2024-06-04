@@ -26,6 +26,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * InterceptorInstanceLoader是一个类查找器和容器。
+ * 这是空中漫步自动检测机构中一个非常重要的类别。如果您想完全理解为什么需要它，以及它是如何工作的，您需要了解Classloader任命机制。
  * The <code>InterceptorInstanceLoader</code> is a classes finder and container.
  * <p>
  * This is a very important class in sky-walking's auto-instrumentation mechanism. If you want to fully understand why

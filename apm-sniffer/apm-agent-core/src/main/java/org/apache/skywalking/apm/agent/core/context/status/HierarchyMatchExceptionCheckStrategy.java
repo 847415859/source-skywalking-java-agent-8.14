@@ -24,6 +24,9 @@ import org.apache.skywalking.apm.agent.core.boot.ServiceManager;
  * HierarchyMatchExceptionCheckStrategy does a hierarchy check for a traced exception. If it or its parent has been
  * listed in org.apache.skywalking.apm.agent.core.conf.Config.StatusCheck#IGNORED_EXCEPTIONS, the error status of the
  * span wouldn't be changed.
+ * HierarchyMatchExceptionCheckStrategy为跟踪的异常执行层次结构检查。
+ * 如果它或它的父级已在org.apache.skywalking.pm.agent.core.conf配置中列出。
+ * 状态检查#IGNORED_EXCEPTIONS，跨度的错误状态不会更改。
  */
 public class HierarchyMatchExceptionCheckStrategy implements ExceptionCheckStrategy {
 

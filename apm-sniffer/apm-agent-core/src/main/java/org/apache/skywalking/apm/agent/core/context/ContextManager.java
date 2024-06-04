@@ -36,6 +36,11 @@ import static org.apache.skywalking.apm.agent.core.conf.Config.Agent.OPERATION_N
  * TraceSegment} starts, all ChildOf spans are in the same context. <p> What is 'ChildOf'?
  * https://github.com/opentracing/specification/blob/master/specification.md#references-between-spans
  *
+ * ContextManager控制TraceSegment的整个上下文。任何TraceSegment都与单个线程相关，
+ * 因此此上下文使用ThreadLocal来维护上下文，并确保由于TraceSegments启动，所有ChildOf跨度都在同一上下文中。
+ * 什么是“ChildOf”？https://github.com/opentracing/specification/blob/master/specification.md#references-跨间
+ * 此外，ContextManager还委托AbstractTracerContext的所有主要方法。
+ *
  * <p> Also, {@link ContextManager} delegates to all {@link AbstractTracerContext}'s major methods.
  */
 public class ContextManager implements BootService {

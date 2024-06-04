@@ -26,6 +26,7 @@ public class CustomizePluginConfig {
         public static class Customize {
             /**
              * Custom enhancement class configuration file path, recommended to use an absolute path.
+             * 自定义增强类配置文件路径，建议使用绝对路径。
              */
             public static String ENHANCE_FILE = "";
         }

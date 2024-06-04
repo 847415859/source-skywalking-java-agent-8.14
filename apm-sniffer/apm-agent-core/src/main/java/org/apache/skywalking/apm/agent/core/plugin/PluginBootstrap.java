@@ -35,12 +35,13 @@ public class PluginBootstrap {
 
     /**
      * load all plugins.
-     *
+     * 加载所有的插件
      * @return plugin definition list.
      */
     public List<AbstractClassEnhancePluginDefine> loadPlugins() throws AgentPackageNotFoundException {
+        // 初始化AgentClassLoader 加载器，需要加载插件类
         AgentClassLoader.initDefaultLoader();
-
+        // 解析所有的插件文件（.def），并加载到PluginCfg中
         PluginResourcesResolver resolver = new PluginResourcesResolver();
         List<URL> resources = resolver.getResources();
 
@@ -71,6 +72,7 @@ public class PluginBootstrap {
             }
         }
 
+        // 加载动态插件(可选择插件)
         plugins.addAll(DynamicPluginLoader.INSTANCE.load(AgentClassLoader.getDefault()));
 
         return plugins;

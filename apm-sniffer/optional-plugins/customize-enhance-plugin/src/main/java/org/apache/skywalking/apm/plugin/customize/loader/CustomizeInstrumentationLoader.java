@@ -34,6 +34,7 @@ import java.util.Set;
 
 /**
  * The customize instrumentation plugin loader, so implements {@link InstrumentationLoader}
+ * 自定义检测插件加载程序，因此实现了InstrumentationLoader
  */
 
 public class CustomizeInstrumentationLoader implements InstrumentationLoader {

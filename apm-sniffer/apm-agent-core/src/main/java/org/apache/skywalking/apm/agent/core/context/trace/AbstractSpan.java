@@ -27,15 +27,21 @@ import org.apache.skywalking.apm.network.trace.component.ComponentsDefine;
 
 /**
  * The <code>AbstractSpan</code> represents the span's skeleton, which contains all open methods.
+ * AbstractSpan表示跨度的骨架，其中包含所有打开的方法。
  */
 public interface AbstractSpan extends AsyncSpan {
     /**
      * Set the component id, which defines in {@link ComponentsDefine}
-     *
+     * 设置组件id，该id在ComponentsDefine中定义
      * @return the span for chaining.
      */
     AbstractSpan setComponent(Component component);
 
+    /**
+     * 设置层级
+     * @param layer
+     * @return
+     */
     AbstractSpan setLayer(SpanLayer layer);
 
     /**
@@ -64,16 +70,19 @@ public interface AbstractSpan extends AsyncSpan {
 
     /**
      * @return true if the actual span is an entry span.
+     *  如果实际跨度是入口跨度，则为true。
      */
     boolean isEntry();
 
     /**
      * @return true if the actual span is an exit span.
+     *  如果实际跨度是出口跨度，则为true。
      */
     boolean isExit();
 
     /**
      * Record an event at a specific timestamp.
+     * 记录在特定时间戳的事件。
      *
      * @param timestamp The explicit timestamp for the log record.
      * @param event     the events
@@ -83,14 +92,14 @@ public interface AbstractSpan extends AsyncSpan {
 
     /**
      * Sets the string name for the logical operation this span represents.
-     *
+     * 设置为逻辑操作表示的字符串名称。
      * @return this Span instance, for chaining
      */
     AbstractSpan setOperationName(String operationName);
 
     /**
      * Start a span.
-     *
+     * 启动跨度。
      * @return this Span instance, for chaining
      */
     AbstractSpan start();
@@ -106,7 +115,7 @@ public interface AbstractSpan extends AsyncSpan {
 
     /**
      * Reference other trace segment.
-     *
+     * 引用其他跟踪段。
      * @param ref segment ref
      */
     void ref(TraceSegmentRef ref);

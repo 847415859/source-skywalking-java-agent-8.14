@@ -69,6 +69,7 @@ public enum CustomizeConfiguration {
 
     /**
      * The loadForEnhance method is resolver configuration file, and parse it
+     * loadForEnhance方法是解析程序配置文件，并对其进行解析
      */
     public void loadForEnhance() {
         try {
@@ -108,6 +109,7 @@ public enum CustomizeConfiguration {
      */
     private List<Map<String, Object>> resolver() throws ParserConfigurationException, IOException, SAXException {
         List<Map<String, Object>> customizeMethods = new ArrayList<Map<String, Object>>();
+        // 自定义增强类配置文件路径。
         File file = new File(CustomizePluginConfig.Plugin.Customize.ENHANCE_FILE);
         if (file.exists() && file.isFile()) {
             NodeList classNodeList = resolverFileClassDesc(file);
@@ -134,7 +136,7 @@ public enum CustomizeConfiguration {
 
     /**
      * Resolver all class description nodes to customizeMethods.
-     *
+     * 将所有类描述节点解析为customizeMethods。
      * @param classNodeList    all class description nodes.
      * @param customizeMethods of memory address, the element {@link MethodConfiguration}.
      */

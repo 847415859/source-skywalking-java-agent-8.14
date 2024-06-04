@@ -22,6 +22,7 @@ import org.apache.skywalking.apm.agent.core.context.trace.AbstractSpan;
 
 /**
  * A subclass of {@link AbstractTag}, represent a tag with a {@link Integer} value.
+ * AbstractTag的一个子类，表示具有整数值的标记。
  */
 public class IntegerTag extends AbstractTag<Integer> {
 

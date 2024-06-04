@@ -5,8 +5,8 @@
   <if>
     <equals arg2="jar" arg1="jar"/>
     <then>
-      <mkdir dir="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/../../../../../skywalking-agent/plugins"/>
-      <copy file="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/spring-webflux-5.x-webclient-plugin-8.14.0.jar" tofile="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/../../../../../skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-8.14.0.jar" overwrite="true"/>
+      <mkdir dir="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/../../../../../skywalking-agent/plugins"/>
+      <copy file="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/spring-webflux-5.x-webclient-plugin-8.14.0.jar" tofile="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\spring-webflux-5.x-webclient-plugin\target/../../../../../skywalking-agent/plugins/spring-webflux-5.x-webclient-plugin-8.14.0.jar" overwrite="true"/>
     </then>
   </if>
 </target>

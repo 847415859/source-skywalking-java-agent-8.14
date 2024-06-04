@@ -23,6 +23,7 @@ import java.lang.reflect.Method;
 /**
  * The static method's interceptor interface. Any plugin, which wants to intercept static methods, must implement this
  * interface.
+ * 静态方法的拦截器接口。任何想要拦截静态方法的插件都必须实现这个接口。
  */
 public interface StaticMethodsAroundInterceptor {
     /**

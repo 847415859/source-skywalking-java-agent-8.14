@@ -39,8 +39,9 @@ public enum ServiceManager {
     private Map<Class, BootService> bootedServices = Collections.emptyMap();
 
     public void boot() {
+        // 获取所有的实现
         bootedServices = loadAllServices();
-
+        // 分别调用各个服务的prepare、startup、onComplete方法
         prepare();
         startup();
         onComplete();
@@ -62,6 +63,7 @@ public enum ServiceManager {
         load(allServices);
         for (final BootService bootService : allServices) {
             Class<? extends BootService> bootServiceClass = bootService.getClass();
+            // 判断是否默认的实现，默认实现只能有一个（实现类为当前类）
             boolean isDefaultImplementor = bootServiceClass.isAnnotationPresent(DefaultImplementor.class);
             if (isDefaultImplementor) {
                 if (!bootedServices.containsKey(bootServiceClass)) {
@@ -70,6 +72,7 @@ public enum ServiceManager {
                     //ignore the default service
                 }
             } else {
+                // 指定实现类
                 OverrideImplementor overrideImplementor = bootServiceClass.getAnnotation(OverrideImplementor.class);
                 if (overrideImplementor == null) {
                     if (!bootedServices.containsKey(bootServiceClass)) {

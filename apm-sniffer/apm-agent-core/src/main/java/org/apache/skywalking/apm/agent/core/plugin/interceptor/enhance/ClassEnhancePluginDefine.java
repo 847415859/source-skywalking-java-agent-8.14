@@ -52,13 +52,17 @@ import static net.bytebuddy.matcher.ElementMatchers.not;
  * the enhances base on three types interceptor point: {@link ConstructorInterceptPoint}, {@link
  * InstanceMethodsInterceptPoint} and {@link StaticMethodsInterceptPoint} If plugin is going to enhance constructors,
  * instance methods, or both, {@link ClassEnhancePluginDefine} will add a field of {@link Object} type.
+ *
+ * 此类控制所有增强操作，包括增强构造函数、实例方法和静态方法。所有的增强都基于三种类型的拦截器点：
+ * ConstructorInterceptPoint、InstanceMethods InterceptPPoint和StaticMethods IntersectoPoint
+ * 如果插件要增强构造函数、实例方法或两者，ClassEnhancePluginDefine将添加一个Object类型的字段。
  */
 public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePluginDefine {
     private static final ILog LOGGER = LogManager.getLogger(ClassEnhancePluginDefine.class);
 
     /**
      * Enhance a class to intercept constructors and class instance methods.
-     *
+     * 增强类以拦截构造函数和类实例方法
      * @param typeDescription target class description
      * @param newClassBuilder byte-buddy's builder to manipulate class bytecode.
      * @return new byte-buddy's builder for further manipulation.
@@ -88,12 +92,15 @@ public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePlugi
 
         /**
          * Manipulate class source code.<br/>
-         *
+         * 修改类源代码
          * new class need:<br/>
          * 1.Add field, name {@link #CONTEXT_ATTR_NAME}.
+         *   添加字段，名称CONTEXT_ATTR_NAME
          * 2.Add a field accessor for this field.
+         *   为字段添加访问器
          *
          * And make sure the source codes manipulation only occurs once.
+         *  确保源代码修改只发生一次
          *
          */
         if (!typeDescription.isAssignableTo(EnhancedInstance.class)) {
@@ -108,6 +115,7 @@ public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePlugi
 
         /**
          * 2. enhance constructors
+         * 2. 增强构造函数
          */
         if (existedConstructorInterceptPoint) {
             for (ConstructorInterceptPoint constructorInterceptPoint : constructorInterceptPoints) {
@@ -128,6 +136,7 @@ public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePlugi
 
         /**
          * 3. enhance instance methods
+         * 3. 增强实例方法
          */
         if (existedMethodsInterceptPoints) {
             for (InstanceMethodsInterceptPoint instanceMethodsInterceptPoint : instanceMethodsInterceptPoints) {
@@ -170,7 +179,7 @@ public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePlugi
 
     /**
      * Enhance a class to intercept class static methods.
-     *
+     * 增强类以拦截类静态方法。
      * @param typeDescription target class description
      * @param newClassBuilder byte-buddy's builder to manipulate class bytecode.
      * @return new byte-buddy's builder for further manipulation.
@@ -185,11 +194,12 @@ public abstract class ClassEnhancePluginDefine extends AbstractClassEnhancePlugi
         }
 
         for (StaticMethodsInterceptPoint staticMethodsInterceptPoint : staticMethodsInterceptPoints) {
+            // 获取方法拦截器
             String interceptor = staticMethodsInterceptPoint.getMethodsInterceptor();
             if (StringUtil.isEmpty(interceptor)) {
                 throw new EnhanceException("no StaticMethodsAroundInterceptor define to enhance class " + enhanceOriginClassName);
             }
-
+            // 是否覆盖参数
             if (staticMethodsInterceptPoint.isOverrideArgs()) {
                 if (isBootstrapInstrumentation()) {
                     newClassBuilder = newClassBuilder.method(isStatic().and(staticMethodsInterceptPoint.getMethodsMatcher()))

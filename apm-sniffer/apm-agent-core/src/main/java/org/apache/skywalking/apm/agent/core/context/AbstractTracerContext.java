@@ -22,6 +22,7 @@ import org.apache.skywalking.apm.agent.core.context.trace.AbstractSpan;
 
 /**
  * The <code>AbstractTracerContext</code> represents the tracer context manager.
+ * AbstractTracerContext表示跟踪程序上下文管理器。
  */
 public interface AbstractTracerContext {
     /**

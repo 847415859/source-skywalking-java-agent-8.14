@@ -22,6 +22,8 @@ import org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.ClassEnha
 
 /**
  * The <code>EnhanceContext</code> represents the context or status for processing a class.
+ * EnhanceContext表示用于处理类的上下文或状态。
+ * 基于此上下文，插件核心ClassEnhancePluginDefine知道如何处理每个特定插件的特定步骤。
  * <p>
  * Based on this context, the plugin core {@link ClassEnhancePluginDefine} knows how to process the specific steps for
  * every particular plugin.

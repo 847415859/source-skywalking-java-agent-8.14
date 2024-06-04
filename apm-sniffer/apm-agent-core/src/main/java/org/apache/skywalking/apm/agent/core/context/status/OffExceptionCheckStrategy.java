@@ -20,6 +20,7 @@ package org.apache.skywalking.apm.agent.core.context.status;
 
 /**
  *  All exceptions would make the span tagged as the error status.
+ *  所有异常都将使跨度标记为错误状态。
  */
 public class OffExceptionCheckStrategy implements ExceptionCheckStrategy {
     @Override

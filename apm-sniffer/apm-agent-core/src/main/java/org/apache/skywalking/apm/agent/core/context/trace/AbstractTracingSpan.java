@@ -48,6 +48,7 @@ public abstract class AbstractTracingSpan implements AbstractSpan {
     protected int spanId;
     /**
      * Parent span id starts from 0. -1 means no parent span.
+     * 父跨度id从0开始-1表示没有父跨度。
      */
     protected int parentSpanId;
     protected List<TagValuePair> tags;

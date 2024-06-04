@@ -24,6 +24,10 @@ import org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.EnhancedI
  * AnnotationMatchExceptionCheckStrategy does an annotation matching check for a traced exception. If it has been
  * annotated with org.apache.skywalking.apm.toolkit.trace.IgnoredException, the error status of the span wouldn't be
  * changed. Because of the annotation supports integration, the subclasses would be also annotated with it.
+ *
+ * AnnotationMatchExceptionCheckStrategy为跟踪的异常执行注释匹配检查。
+ * 如果已经用org.apache.skywalking.pm.toolkit.trace进行了注释。IgnoredException，
+ * 跨度的错误状态不会更改。因为注释支持集成，所以子类也将使用它进行注释。
  */
 public class AnnotationMatchExceptionCheckStrategy implements ExceptionCheckStrategy {
 

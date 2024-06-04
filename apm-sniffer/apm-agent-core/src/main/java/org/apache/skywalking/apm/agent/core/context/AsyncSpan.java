@@ -24,6 +24,8 @@ import org.apache.skywalking.apm.agent.core.context.trace.AbstractSpan;
  * Span could use these APIs to active and extend its lift cycle across thread.
  * <p>
  * This is typical used in async plugin, especially RPC plugins.
+ * Span可以使用这些API来激活并延长其跨线程的提升周期。
+ * 这通常用于异步插件，尤其是RPC插件。
  */
 public interface AsyncSpan {
     /**
@@ -38,6 +40,10 @@ public interface AsyncSpan {
      * <p>
      * The execution times of {@link #prepareForAsync} and {@link #asyncFinish()} must match.
      *
+     * 跨度在当前跟踪上下文中完成，但当前跨度仍处于活动状态，直到调用asyncFinish。必须调用此方法
+     * 1.在原始线程中（跟踪上下文）。
+     * 2.当前跨度为活动跨度。
+     * 在活动期间，可以在任何线程中更改跨度的标记、日志和属性。 prepareForAsync和asyncFinish（）的执行时间必须匹配。
      * @return the current span
      */
     AbstractSpan prepareForAsync();
@@ -46,7 +52,8 @@ public interface AsyncSpan {
      * Notify the span, it could be finished.
      * <p>
      * The execution times of {@link #prepareForAsync} and {@link #asyncFinish()} must match.
-     *
+     * 通知跨度，它可以完成。
+     * prepareForAsync和asyncFinish（）的执行时间必须匹配。
      * @return the current span
      */
     AbstractSpan asyncFinish();

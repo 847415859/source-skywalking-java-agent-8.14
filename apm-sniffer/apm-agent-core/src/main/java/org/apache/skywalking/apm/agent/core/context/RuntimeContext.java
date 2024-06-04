@@ -29,6 +29,9 @@ import org.apache.skywalking.apm.agent.core.conf.RuntimeContextConfiguration;
  * the same context only.
  * <p>
  * In most cases, it means it only stays in a single thread for context propagation.
+ *
+ * RuntimeContext在跟踪上下文期间处于活动状态。它不会序列化到收集器，并且始终只停留在同一上下文中。
+ * 在大多数情况下，这意味着它只停留在单个线程中进行上下文传播。
  */
 public class RuntimeContext {
     private final ThreadLocal<RuntimeContext> contextThreadLocal;

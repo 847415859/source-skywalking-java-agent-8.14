@@ -21,14 +21,19 @@ package org.apache.skywalking.apm.agent.core.plugin;
 import org.apache.skywalking.apm.agent.core.plugin.exception.IllegalPluginDefineException;
 import org.apache.skywalking.apm.util.StringUtil;
 
+/**
+ * 插件定义类   解析具体插件忠配置的 .def文件
+ */
 public class PluginDefine {
     /**
      * Plugin name.
+     * 插件名字
      */
     private String name;
 
     /**
      * The class name of plugin defined.
+     * 插件全路径类
      */
     private String defineClass;
 

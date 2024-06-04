@@ -22,6 +22,9 @@ import java.util.UUID;
 
 import org.apache.skywalking.apm.util.StringUtil;
 
+/**
+ * id 生成器，用于生成全局唯一的 id
+ */
 public final class GlobalIdGenerator {
     private static final String PROCESS_ID = UUID.randomUUID().toString().replaceAll("-", "");
     private static final ThreadLocal<IDContext> THREAD_ID_SEQUENCE = ThreadLocal.withInitial(

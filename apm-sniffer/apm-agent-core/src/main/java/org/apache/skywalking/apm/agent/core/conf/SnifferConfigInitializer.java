@@ -66,6 +66,11 @@ public class SnifferConfigInitializer {
      * config file.
      * <p>
      * At the end, `agent.service_name` and `collector.servers` must not be blank.
+     *
+     * 如果设置了指定的代理配置路径，则代理将尝试查找指定的代理设置。如果未设置指定的代理配置路径，则代理将尝试定位“agent.config”，该路径应位于代理包的/config目录中。
+     * 同时尝试用system.properties覆盖配置。这个地方的所有键都应该以ENV_KEY_PREFIX开头。
+     * 例如，在env'skywalking.agent.service_name=yourAppName'中覆盖配置文件中的'agent.service_name'。
+     * 最后，“agent.service_name”和“collector.servers”不能为空。
      */
     public static void initializeCoreConfig(String agentOptions) {
         AGENT_SETTINGS = new Properties();
@@ -195,8 +200,10 @@ public class SnifferConfigInitializer {
     /**
      * Override the config by system properties. The property key must start with `skywalking`, the result should be as
      * same as in `agent.config`
+     * 按系统属性覆盖配置。属性键必须以“skywalking”开头，结果应与“agent.config”中的相同`
      * <p>
      * such as: Property key of `agent.service_name` should be `skywalking.agent.service_name`
+     * 例如：`agent.service_name`的属性密钥应为`skywalking.agent.service_name`
      */
     private static void overrideConfigBySystemProp() {
         Properties systemProperties = System.getProperties();

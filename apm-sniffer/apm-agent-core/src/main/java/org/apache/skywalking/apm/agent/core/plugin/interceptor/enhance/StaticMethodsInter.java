@@ -29,6 +29,7 @@ import org.apache.skywalking.apm.agent.core.logging.api.ILog;
 import org.apache.skywalking.apm.agent.core.logging.api.LogManager;
 
 /**
+ * 实际的字节伙伴的拦截器来拦截类静态方法。在这个类中，它提供了byte buddy和Skywalking插件之间的桥梁。
  * The actual byte-buddy's interceptor to intercept class static methods. In this class, it provides a bridge between
  * byte-buddy and sky-walking plugin.
  */

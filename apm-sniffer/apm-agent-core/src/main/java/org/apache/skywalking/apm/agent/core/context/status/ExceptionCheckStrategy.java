@@ -20,6 +20,7 @@ package org.apache.skywalking.apm.agent.core.context.status;
 
 /**
  * The strategy checks the status of exception traced in a span.
+ * 该策略检查在跨度中跟踪的异常的状态。
  */
 public interface ExceptionCheckStrategy {
 

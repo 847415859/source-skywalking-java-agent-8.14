@@ -58,10 +58,6 @@ import static net.bytebuddy.matcher.ElementMatchers.not;
  */
 public class SkyWalkingAgent {
 
-    public static void main(String[] args) {
-        LOGGER.info("wwwwwwwww");
-    }
-
     private static ILog LOGGER = LogManager.getLogger(SkyWalkingAgent.class);
 
     /**
@@ -69,6 +65,7 @@ public class SkyWalkingAgent {
      */
     public static void premain(String agentArgs, Instrumentation instrumentation) throws PluginException {
         final PluginFinder pluginFinder;
+        // 核心：1.初始化核心配置, 最终将配置写入到 Config 对象中
         try {
             SnifferConfigInitializer.initializeCoreConfig(agentArgs);
         } catch (Exception e) {
@@ -85,7 +82,7 @@ public class SkyWalkingAgent {
             LOGGER.warn("SkyWalking agent is disabled.");
             return;
         }
-
+        // 核心：2.初始化插件管理器, 加载插件
         try {
             pluginFinder = new PluginFinder(new PluginBootstrap().loadPlugins());
         } catch (AgentPackageNotFoundException ape) {
@@ -98,6 +95,7 @@ public class SkyWalkingAgent {
 
         final ByteBuddy byteBuddy = new ByteBuddy().with(TypeValidation.of(Config.Agent.IS_OPEN_DEBUGGING_CLASS));
 
+        // 初始化AgentBuilder, 过滤掉我们不需要增强处理的类
         AgentBuilder agentBuilder = new AgentBuilder.Default(byteBuddy).ignore(
             nameStartsWith("net.bytebuddy.")
                 .or(nameStartsWith("org.slf4j."))
@@ -109,6 +107,7 @@ public class SkyWalkingAgent {
                 .or(allSkyWalkingAgentExcludeToolkit())
                 .or(ElementMatchers.isSynthetic()));
 
+        // JDK9+ 模块导出增强
         JDK9ModuleExporter.EdgeClasses edgeClasses = new JDK9ModuleExporter.EdgeClasses();
         try {
             agentBuilder = BootstrapInstrumentBoost.inject(pluginFinder, instrumentation, agentBuilder, edgeClasses);
@@ -123,7 +122,7 @@ public class SkyWalkingAgent {
             LOGGER.error(e, "SkyWalking agent open read edge in JDK 9+ failure. Shutting down.");
             return;
         }
-
+        // 是否缓存增强过的类
         if (Config.Agent.IS_CACHE_ENHANCED_CLASS) {
             try {
                 agentBuilder = agentBuilder.with(new CacheableTransformerDecorator(Config.Agent.CLASS_CACHE_MODE));
@@ -132,22 +131,24 @@ public class SkyWalkingAgent {
                 LOGGER.error(e, "SkyWalking agent can't active class cache.");
             }
         }
-
-        agentBuilder.type(pluginFinder.buildMatch())
+        // 核心：3.使用字节码增强技术，对目标类进行增强
+        agentBuilder.type(pluginFinder.buildMatch())     // 匹配到符合条件的类
                     .transform(new Transformer(pluginFinder))
-                    .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)
-                    .with(new RedefinitionListener())
-                    .with(new Listener())
+                    .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)   // 自定义的转换器
+                    .with(new RedefinitionListener())   // 自定义的监听器
+                    .with(new Listener())               // 自定义的监听器
                     .installOn(instrumentation);
 
+        // 表示增强完毕
         PluginFinder.pluginInitCompleted();
 
         try {
+            // 核心： 4.启动服务管理程序，通过SPI加载所有的BootService接口的实现类，并启动插件的Service
             ServiceManager.INSTANCE.boot();
         } catch (Exception e) {
             LOGGER.error(e, "Skywalking agent boot failure.");
         }
-
+        // 核心: 5.注册JVM关闭钩子，在JVM关闭时，执行ServiceManager.INSTANCE.shutdown()
         Runtime.getRuntime()
                .addShutdownHook(new Thread(ServiceManager.INSTANCE::shutdown, "skywalking service shutdown thread"));
     }
@@ -166,11 +167,14 @@ public class SkyWalkingAgent {
                                                 final JavaModule javaModule,
                                                 final ProtectionDomain protectionDomain) {
             LoadedLibraryCollector.registerURLClassLoader(classLoader);
+            // 核心 4.1获取当前类的增减插件定义
             List<AbstractClassEnhancePluginDefine> pluginDefines = pluginFinder.find(typeDescription);
             if (pluginDefines.size() > 0) {
                 DynamicType.Builder<?> newBuilder = builder;
+                // EnhanceContext表示用于处理类的上下文或状态。基于此上下文，插件核心ClassEnhancePluginDefine知道如何处理每个特定插件的特定步骤。
                 EnhanceContext context = new EnhanceContext();
                 for (AbstractClassEnhancePluginDefine define : pluginDefines) {
+                    // 核心 4.2增强
                     DynamicType.Builder<?> possibleNewBuilder = define.define(
                         typeDescription, newBuilder, classLoader, context);
                     if (possibleNewBuilder != null) {
