@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\plugin\xmemcached\v2\XMemcachedConstructorWithComplexArgInterceptorTest.class
+org\apache\skywalking\apm\plugin\xmemcached\v2\XMemcachedConstructorWithInetSocketAddressListArgInterceptorTest.class
+org\apache\skywalking\apm\plugin\xmemcached\v2\XMemcachedConstructorWithHostPortArgInterceptorTest.class
+org\apache\skywalking\apm\plugin\xmemcached\v2\XMemcachedMethodInterceptorTest.class
+org\apache\skywalking\apm\plugin\xmemcached\v2\XMemcachedConstructorWithInetSocketAddressArgInterceptorTest.class

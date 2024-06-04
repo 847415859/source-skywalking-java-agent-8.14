@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\jdbc\postgresql\define\ConnectionInstrumentationTest.class
+org\apache\skywalking\apm\plugin\jdbc\postgresql\define\PgStatementInstrumentationTest.class

@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\sofarpc\SofaRpcConsumerInterceptorTest.class
+org\apache\skywalking\apm\plugin\sofarpc\SofaRpcProviderInterceptorTest.class

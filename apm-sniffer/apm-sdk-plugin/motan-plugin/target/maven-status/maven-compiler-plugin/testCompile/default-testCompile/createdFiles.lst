@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\motan\MotanProviderInterceptorTest.class
+org\apache\skywalking\apm\plugin\motan\MotanConsumerInterceptorTest.class

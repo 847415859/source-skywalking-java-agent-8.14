@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\spring\patch\CreateAopProxyInterceptorTest$MockClass.class
+org\apache\skywalking\apm\plugin\spring\patch\AopExpressionMatchInterceptorTest.class
+org\apache\skywalking\apm\plugin\spring\patch\AopExpressionMatchInterceptorTest$MockClass.class
+org\apache\skywalking\apm\plugin\spring\patch\CreateAopProxyInterceptorTest.class

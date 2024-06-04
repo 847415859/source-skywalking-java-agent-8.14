@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\plugin\undertow\v2x\UndertowBuilderMethodMatcherTest.class
+org\apache\skywalking\apm\plugin\undertow\v2x\RootHandlerInterceptorTest.class
+org\apache\skywalking\apm\plugin\undertow\v2x\ForwardInterceptorTest.class
+org\apache\skywalking\apm\plugin\undertow\v2x\RoutingHandlerInterceptorTest.class
+org\apache\skywalking\apm\plugin\undertow\v2x\TracingHandlerTest.class

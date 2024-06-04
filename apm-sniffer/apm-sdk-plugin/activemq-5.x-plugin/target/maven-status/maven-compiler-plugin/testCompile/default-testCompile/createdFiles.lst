@@ -1,0 +1,13 @@
+org\apache\skywalking\apm\plugin\activemq\ActiveMQConsumerAndProducerConstructorInterceptorTest$TestActiveMQSession.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQConsumerAndProducerConstructorInterceptorTest.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQConsumerAndProducerConstructorInterceptorTest$TransportTest.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQProducerInterceptorTest$MQDestination.class
+org\apache\skywalking\apm\plugin\activemq\MessageConsumerDequeueInterceptorTest$Msg.class
+org\apache\skywalking\apm\plugin\activemq\MessageConsumerDequeueInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQConsumerAndProducerConstructorInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQProducerInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQConsumerAndProducerConstructorInterceptorTest$TestConnection.class
+org\apache\skywalking\apm\plugin\activemq\MessageConsumerDequeueInterceptorTest$Des.class
+org\apache\skywalking\apm\plugin\activemq\MessageConsumerDequeueInterceptorTest.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQProducerInterceptorTest$Msg.class
+org\apache\skywalking\apm\plugin\activemq\ActiveMQProducerInterceptorTest.class

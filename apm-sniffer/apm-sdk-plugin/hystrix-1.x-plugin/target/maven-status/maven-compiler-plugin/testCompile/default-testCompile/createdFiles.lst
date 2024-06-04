@@ -1,0 +1,6 @@
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixPluginsInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixConcurrencyStrategyInterceptorTest$CustomConcurrencyStrategy.class
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixPluginsInterceptorTest$CustomHystrixCommandExecutionHook.class
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixPluginsInterceptorTest.class
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixConcurrencyStrategyInterceptorTest.class
+org\apache\skywalking\apm\plugin\hystrix\v1\HystrixConcurrencyStrategyInterceptorTest$1.class

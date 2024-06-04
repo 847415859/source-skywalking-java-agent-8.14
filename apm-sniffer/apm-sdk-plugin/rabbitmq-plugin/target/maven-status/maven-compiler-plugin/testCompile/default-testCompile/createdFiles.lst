@@ -1,0 +1,8 @@
+org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptorTest.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptorTest$2.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQProducerInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptorTest.class
+org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQConsumerInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\rabbitmq\ChannelNConstructorInterceptorTest$TestConnection.class
+org\apache\skywalking\apm\plugin\rabbitmq\RabbitMQProducerInterceptorTest.class

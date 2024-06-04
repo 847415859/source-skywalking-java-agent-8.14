@@ -1,0 +1,2 @@
+org.apache.skywalking.apm.dependencies.io.grpc.netty.UdsNameResolverProvider
+org.apache.skywalking.apm.dependencies.io.grpc.internal.DnsNameResolverProvider

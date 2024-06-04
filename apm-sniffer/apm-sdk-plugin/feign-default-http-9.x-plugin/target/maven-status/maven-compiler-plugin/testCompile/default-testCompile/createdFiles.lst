@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\feign\http\v9\DefaultHttpClientInterceptorTest.class
+org\apache\skywalking\apm\plugin\feign\http\v9\PathVarInterceptorTest.class

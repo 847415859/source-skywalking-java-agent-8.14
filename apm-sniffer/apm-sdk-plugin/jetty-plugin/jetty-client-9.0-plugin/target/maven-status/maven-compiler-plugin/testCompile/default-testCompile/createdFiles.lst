@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\jetty\v90\client\SyncHttpRequestSendInterceptorTest.class
+org\apache\skywalking\apm\plugin\jetty\v90\client\SyncHttpRequestSendInterceptorTest$MockHttpRequest.class

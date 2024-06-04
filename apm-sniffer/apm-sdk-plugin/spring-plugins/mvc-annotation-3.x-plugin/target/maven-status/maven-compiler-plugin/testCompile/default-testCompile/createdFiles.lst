@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\spring\mvc\v3\ControllerConstructorInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\spring\mvc\v3\ControllerConstructorInterceptorTest$MockRequestMappingObjectWithoutRequestMapping.class
+org\apache\skywalking\apm\plugin\spring\mvc\v3\ControllerConstructorInterceptorTest.class
+org\apache\skywalking\apm\plugin\spring\mvc\v3\ControllerConstructorInterceptorTest$MockRequestMappingObject.class

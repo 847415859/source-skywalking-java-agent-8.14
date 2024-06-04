@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.runtime.classpath"/>
+  <if>
+    <equals arg2="jar" arg1="jar"/>
+    <then>
+      <mkdir dir="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\core-patch\target/../../../../../skywalking-agent/plugins"/>
+      <copy file="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\core-patch\target/apm-spring-core-patch-8.14.0.jar" tofile="D:\Studynotes\self-study\ssjava\24.APM\Skywalking\SourceCode\apache-skywalking-java-agent-8.14.0\apm-sniffer\apm-sdk-plugin\spring-plugins\core-patch\target/../../../../../skywalking-agent/plugins/apm-spring-core-patch-8.14.0.jar" overwrite="true"/>
+    </then>
+  </if>
+</target>
+</project>

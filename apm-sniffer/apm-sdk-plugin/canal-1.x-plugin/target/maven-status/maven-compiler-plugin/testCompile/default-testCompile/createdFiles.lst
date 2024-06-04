@@ -1,0 +1,3 @@
+org\apache\skywalking\apm\plugin\canal\CanalInterceptorTest.class
+org\apache\skywalking\apm\plugin\canal\CanalInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\canal\CanalInterceptorTest$CanalConnector.class

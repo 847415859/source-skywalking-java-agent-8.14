@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\jetty\v9\server\HandleInterceptorTest.class
+org\apache\skywalking\apm\plugin\jetty\v9\server\HandleInterceptorTest$MockService.class

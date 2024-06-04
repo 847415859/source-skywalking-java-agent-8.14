@@ -1,0 +1,4 @@
+org\apache\skywalking\apm\plugin\rocketMQ\v3\OnExceptionInterceptorTest.class
+org\apache\skywalking\apm\plugin\rocketMQ\v3\MessageSendInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\rocketMQ\v3\OnSuccessInterceptorTest.class
+org\apache\skywalking\apm\plugin\rocketMQ\v3\MessageSendInterceptorTest.class

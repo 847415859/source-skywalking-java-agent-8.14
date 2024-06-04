@@ -1,0 +1,5 @@
+org\apache\skywalking\apm\plugin\mongodb\v3\interceptor\v30\MongoDBInterceptorTest.class
+org\apache\skywalking\apm\plugin\mongodb\v3\interceptor\v37\MongoDBClientDelegateInterceptorTest$1.class
+org\apache\skywalking\apm\plugin\mongodb\v3\interceptor\v37\MongoDBOperationExecutorInterceptorTest.class
+org\apache\skywalking\apm\plugin\mongodb\v3\interceptor\v37\MongoDBClientDelegateInterceptorTest.class
+org\apache\skywalking\apm\plugin\mongodb\v3\interceptor\v37\MongoDBClientDelegateInterceptorTest$FieldEnhancedInstance.class

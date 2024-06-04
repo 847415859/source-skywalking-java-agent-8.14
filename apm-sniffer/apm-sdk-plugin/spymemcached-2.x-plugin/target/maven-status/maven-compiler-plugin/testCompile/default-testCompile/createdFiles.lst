@@ -1,0 +1,2 @@
+org\apache\skywalking\apm\plugin\spymemcached\v2\MemcachedConstructorWithInetSocketAddressListArgInterceptorTest.class
+org\apache\skywalking\apm\plugin\spymemcached\v2\MemcachedMethodInterceptorTest.class
